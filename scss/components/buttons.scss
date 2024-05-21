@@ -1,0 +1,20 @@
+// _buttons.scss
+
+@import 'tokens.scss';
+
+.btn-primary1 {
+    background-color: $colorBase2;
+    color: $colorsTextPrimary;
+    display: flex;
+    flex: 1;
+    padding: $spaceNormal;
+    margin: $spaceXSmall 0;
+    font-size: $FontSizeTextSmall;
+    border-radius: $borderRadiusLarge;
+    text-decoration: none;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+  
