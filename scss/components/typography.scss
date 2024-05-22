@@ -1,0 +1,35 @@
+@import 'tokens.scss';
+@font-face {
+    font-family: 'Allison';
+    src: url('./fonts/Allison.otf');
+}
+h1 {
+    font-size: $FontSizeHeadingTitle1;
+    font-weight: $fontWeightBold;
+    line-height: $lineHeightHeadingTitle1;
+    color: $colorsBaseInkNormal;    
+    padding: $spaceNormal $spaceEmpty;
+}
+
+h2 {
+    font-size: $FontSizeHeadingTitle2;
+}
+
+h3 {
+    color: $colorsBaseInkNormal;
+    font-size: $FontSizeHeadingTitle3;
+    line-height: $lineHeightHeadingTitle3;
+    font-weight: $fontWeightBold;
+    margin: $SizeSmall 0px;    
+}
+
+h4 {
+    font-size: $FontSizeHeadingTitle4;
+    font-weight: $fontWeightBold;
+}
+
+h5, .subheading {
+    font-size: $FontSizeHeadingTitle4;
+    color: $colorsBaseInkNormal;
+    font-weight: $fontWeightHeadingDisplaySubtitle;
+}

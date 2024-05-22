@@ -11887,5 +11887,104 @@ textarea.form-control-lg {
 /* Font Family */
 /*Duration*/
 /* Shadow */
+/* Alert2 */
+/* Alert3 */
+/* Space */
+/* Font size */
+/* Grid */
+/* Size */
+/* Border Radius */
+/* Border width */
+/* Opacity */
+/* Line Height */
+/*Font Weight*/
+/* Font Family */
+/*Duration*/
+/* Shadow */
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.row.reverse {
+  flex-direction: column-reverse;
+}
+
+.column {
+  flex: 1;
+  flex-basis: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.column.flex {
+  display: flex;
+}
+.column.clearfix {
+  margin-left: 0;
+  margin-right: 0;
+}
+.column.clearleft {
+  margin-left: 0;
+}
+.column.clearleft--on-tablet {
+  margin-left: 0;
+}
+.column.clearleft--on-mobile {
+  margin-left: 0;
+}
+.column.no-grow {
+  flex-grow: 0;
+}
+.column.helper {
+  max-width: 50%;
+}
+
+/* Alert2 */
+/* Alert3 */
+/* Space */
+/* Font size */
+/* Grid */
+/* Size */
+/* Border Radius */
+/* Border width */
+/* Opacity */
+/* Line Height */
+/*Font Weight*/
+/* Font Family */
+/*Duration*/
+/* Shadow */
+@font-face {
+  font-family: "Allison";
+  src: url("./fonts/Allison.otf");
+}
+h1, .h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  padding: 0.875em 0em;
+}
+
+h2, .h2 {
+  font-size: 16px;
+}
+
+h3, .h3 {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 12px 0px;
+}
+
+h4, .h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h5, .h5, .subheading {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=custom.css.map */
